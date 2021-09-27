@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <th:block th:include="~{fragments/head}"></th:block>
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <th:block th:include="~{fragments/navbar}"></th:block>
+    </header>
+
+    <main>
+        <div class="jumbotron re-background mt-4">
+            <h1>Project: Viruses</h1>
+            <hr/>
+            <div class="text-white text-center">
+            <p>The project is not finish yet!</p>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div th:replace="~{fragments/footer }"></div>
+    </footer>
+
+</div>
+</body>
+</html>
